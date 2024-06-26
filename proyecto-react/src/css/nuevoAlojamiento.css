@@ -1,0 +1,81 @@
+.form-container h2{
+    display: flex;
+    justify-content: center;
+}
+
+.tablero{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+}
+
+.textificadora{
+    resize: none;
+    height: 17px;
+    overflow: hidden;
+}
+
+.tablero div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.titulares{
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.cajas{
+    border-radius: 7px;
+    border-color: #0a52ee;
+    border-width: 0.2em;
+    text-align: center;
+    background-image: linear-gradient(to right, #cab7d4 , #fbb7c2);
+    padding: 5px;
+}
+
+.texto{
+    text-align: left;
+}
+
+.boton{
+    transition-duration: 0.4s;
+    background-color: #cab7d4;
+    border: 2px solid #cab7d4;
+    box-shadow: 0 0px 1px rgba(0,0,0,0.3);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 13px;
+}
+
+.boton:hover{
+    background-color: #fbb7c2;
+    color: white;
+}
+
+.tablero label{
+    margin: 0;
+}
+
+@media (max-width: 769px) {
+    .tablero div {
+        width: 100%;
+        margin: 3px auto
+    }
+
+    .tablero {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boton{
+        margin: 10px 
+    }
+
+    .tablero label{
+        margin: 0 3px
+    }
+}

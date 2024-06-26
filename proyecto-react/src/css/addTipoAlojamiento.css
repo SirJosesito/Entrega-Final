@@ -1,0 +1,55 @@
+.formulario-contenedor {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.formulario-contenedor h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.formulario label {
+    font-family: "Montserrat", sans-serif;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.formulario input:focus {
+    outline: none;
+    border-color: #FF5A60;
+}
+
+.formulario button {
+    background-color: #FF5A60;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem; /* Espacio superior del botón */
+}
+
+.formulario button:hover {
+    background-color: #D94148; /* Cambio de color al pasar el mouse */
+}

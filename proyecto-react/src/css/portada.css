@@ -1,0 +1,75 @@
+.contenedor-filtrado {
+    padding: 2%;
+    background-color: #f9f9f9;
+    border-radius: 0.5rem;
+    margin: 2% auto; /* Espacio alrededor del contenedor */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    width: 80%;
+}
+
+.filtro-grupo {
+    flex: 1;
+    min-width: 200px;
+}
+
+.contenedor-filtrado label {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: rgb(47, 10, 82);
+}
+
+.contenedor-filtrado select,
+.contenedor-filtrado input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    /* margin-bottom: 1rem; */
+}
+
+.precio-rango {
+    display: flex;
+    gap: 1rem;
+}
+
+.precio-rango input {
+    width: calc(50% - 0.5rem);
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    width: 80%;
+    margin: 2% auto; /* Espacio alrededor del contenedor */
+}
+
+@media (max-width: 769px) {
+    .contenedor-filtrado {
+        flex-direction: column;
+        width: 90%;
+        margin: 2% auto; /* Espacio alrededor del contenedor */
+    }
+
+    .contenedor-tarjetas {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 2% auto; /* Espacio alrededor del contenedor */
+    }
+
+    .precio-rango {
+        flex-direction: column;
+    }
+
+    .precio-rango input {
+        width: 100%;
+    }
+}

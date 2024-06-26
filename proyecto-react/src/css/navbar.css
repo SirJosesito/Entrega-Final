@@ -1,0 +1,76 @@
+/* ESTILOS DE LA BARRA DE NAVEGACION */
+.barra-de-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 75px 5px 75px;
+    background-color: #fff; /* Añadido para visibilidad */
+}
+
+.contenedor-logo-nav {
+    flex: 1;
+}
+
+.botonera-nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+}
+
+.botonera-nav ul li {
+    margin: 0 20px;
+}
+
+.botonera-nav ul li a {
+    text-decoration: none;
+    color: rgb(47, 10, 82);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.botonera-nav ul li a:hover {
+    color: #FF5A60;
+    transition: 0.2s;
+}
+
+.inicio-sesion-nav {
+    flex: 1;
+    text-align: right;
+}
+
+.inicio-sesion-nav a {
+    text-decoration: none;
+    color: #FF5A60;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#logo-airbnb {
+    height: 30px;
+}
+
+@media (max-width: 769px) {
+    .barra-de-navegacion {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .botonera-nav ul {
+        flex-direction: column;
+    }
+
+    .botonera-nav ul li {
+        margin: 10px 0;
+    }
+
+    .inicio-sesion-nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+}

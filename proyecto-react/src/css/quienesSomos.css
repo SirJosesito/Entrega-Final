@@ -1,0 +1,39 @@
+.contenedor-tarjeta2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+}
+
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding-left: 2em;
+}
+
+.contenedor-texto h1{
+    font-size: 2em;
+}
+.tarjeta-grilla2{
+    display: flex;
+    background-color: #FEF7F7;
+    border-radius: 25px;
+    margin: 5px auto;
+    padding-top: 15px
+}
+
+.parrafo{
+    text-align: center;
+    margin: 20px
+}
+
+@media (max-width: 769px) {
+    .tarjeta-grilla2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-ilustracion img {
+        width: 100%;
+    }
+}

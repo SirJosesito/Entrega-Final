@@ -1,0 +1,123 @@
+.contenedor-tarjeta{
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tarjeta-grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FEF7F7;
+    border-radius: 25px;
+    margin: 5px auto;
+    padding-top: 15px
+}
+
+.titulares{
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.contenedor-ilustracion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-ilustracion img{
+    width: 700px;
+    padding: 0 50px;
+    box-sizing: border-box;
+  
+}
+.contenedor-formulario{
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.contenedor-formulario form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn{
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    background-color: #FF5A60;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ff433c;
+    transition: 0.2s;
+}
+
+.cajas1{
+    border: 3px solid #000000;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+form label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textarea-fija{
+    border: 3px solid #000000;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#checkbox{
+    display: flex;
+    align-items: center;
+}
+
+#checkbox label{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tarjeta-contacto{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-contacto div{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+@media (max-width: 769px) {
+    .tarjeta-contacto div {
+        width: 100%;
+        margin: 3px auto;
+        flex-direction: column;
+    }
+
+    .tarjeta-contacto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tarjeta-contacto label{
+        margin: 0 3px
+    }
+}

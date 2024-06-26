@@ -1,0 +1,28 @@
+/* .input-imagen{
+    width: 40%;
+    padding: 0.5rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+    
+};
+
+.input-imagen:focus{
+    outline: none;
+    border: 2px solid #FF5A60;
+} */
+
+.input-imagen {
+    width: 40%;
+    padding: 0.5rem;
+    border: 0.2rem solid #ddd;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.input-imagen:focus {
+    outline: none;
+    border-color: #FF5A60;
+}

@@ -1,0 +1,26 @@
+.separador{
+    margin: 20px;
+    width: 95%;
+    height: 1px;
+    background-color: rgb(171, 171, 171);
+}
+.botonera-footer{
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botonera-footer a{
+    color: rgb(47, 10, 82);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
